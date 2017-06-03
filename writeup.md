@@ -26,9 +26,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 - Currently i am drawing only the segmented lines using cv2.line()
 .
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-
+ 
 ### 2. Identify potential shortcomings with your current pipeline
 
 - A sharp U-turn on the road will tough to handle by this algorithm.
