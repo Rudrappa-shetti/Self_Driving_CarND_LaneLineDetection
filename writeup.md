@@ -24,7 +24,10 @@ My Pipeline consists of following steps :
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-- Currently i am drawing only the segmented lines using cv2.line()
+- firstly slope is found for all the lines
+- Then the mean is found for all the x and y of all lines
+- y = mx +c is used to find the slope and intercepts.
+- cv2.line is used to draw the lines	
 .
  
 ### 2. Identify potential shortcomings with your current pipeline
